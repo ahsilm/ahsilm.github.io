@@ -1,17 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-	<script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Graduate Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-left">
+      <h1>Lisha Maharjan</h1>
+    </div>
+    <div class="header-right">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="Graduate_profile_cv.pdf" target="_blank">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <section id="about">
+      <div class="about-photo">
+        <img src="image.png" alt="Photo of Lisha Maharjan">
+      </div>
+      <div class="about-description">
+        <h2>About Me</h2>
+        <p>I am Lisha Maharjan, a Computer Science graduate student at Miami University. I am originally from Kathmandu,
+          Nepal. I completed my Bachelor's degree in Computer Engineering from Nepal. I have a comprehensive knowledge
+          and understanding of computer science concepts. I'm particularly interested in the power of data to shape the
+          future and committed to leveraging my skills in the data science and software engineering industry. I am
+          motivated to learn and grow from experiences and open to exploring new things. My hobbies include travelling,
+          music and watching movies.</p>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="research-card">
+        <p>Currently, my research topic is focused around exploring the potential of large language models like ChatGPT
+          in producing web accessibility code. This study aims to analyze the accuracy and compliance of the generated
+          code with web accessibility standards, and its proficiency in addressing related challenges. Through this
+          research, I aspire to
+          contribute to the development of more inclusive and accessible web technologies.</p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-card">
+        <h3>Graduate Teaching Assistant</h3>
+        <p class="experience-company">Miami University | Aug 2023-Current</p>
+        <ul>
+          <li>Guided students on the foundational concepts of Object Oriented programming, and Data Abstraction and
+            Structures by assisting students in computer lab sessions.</li>
+          <li>Guided students on coding process and best practices by mentoring students on style standards, test cases
+            and program execution</li>
+        </ul>
+        <br>
+        <h3>Associate Software Engineer</h3>
+        <p class="experience-company">LIS Nepal | Apr 2022-Jul 2023</p>
+        <ul>
+          <li>Accelerated order fulfillment process by developing a decision engine API to select the best store using
+            linear programming optimization approach and deploying it using Docker which reduced order delivery time by
+            5%.
+          </li>
+          <li>Enhanced data pipeline efficiency and created automation scripts using Python.</li>
+          <li>Improved monitoring and root cause analysis of system errors by implementing Elastic, Logstash, and Kibana
+            (ELK) architecture to perform log parsing and analytics.</li>
+        </ul>
+        <br>
+        <h3>Software Engineer Intern</h3>
+        <p class="experience-company">LIS Nepal | Nov 2021-Feb 2022</p>
+        <ul>
+          <li>Designed Python scripts for Extraction, Transformation, and Loading (ETL) processes, facilitating the
+            transfer of data from source tables to Snowflake's target tables.</li>
+          <li>Developed and executed a data ingestion pipeline in Snowflake using Snowflake stages, file formats, stored
+            procedures, streams, and tasks.</li>
+      </div>
+      <!-- Repeat the experience-card div for each position held -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-details">
+        <p>Email: <a href="mailto:lishamaharjan358@gmail.com">lishamaharjan358@gmail.com</a></p>
+        <div class="social-links">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/lishamaharjan" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/lishamrj" target="_blank" title="Facebook">
+            <i class="fa-brands fa-facebook-square"></i>
+          </a>
+          <!-- Email -->
+          <a href="mailto:lishamaharjan358@gmail.com" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <div class="footer">
+    <p>© 2023 by Lisha Maharjan.</p>
+  </div>
+</body>
+
 </html>
